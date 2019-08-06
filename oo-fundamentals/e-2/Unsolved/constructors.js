@@ -13,8 +13,10 @@ var House = function (style) {
 var blueHouse = new House('ranch', 12, 1500, true, 'blue');
 
 // create an instance of House called 'redHouse' that is a craftsman style home with 15 rooms, 2500sqft, does have central air and is red in color
+var redHouse = new House('craftman', 15, 2500, true, 'red');
 
 // create an instance of House called 'greenHouse' that is a duplex sty;e home with 6 rooms, 800sqft, does NOT have central air and is blue in color
+var greenHouse = new House('duplex', 6, 800, false, 'blue');
 
 // call the printBrochure method for each home
 
